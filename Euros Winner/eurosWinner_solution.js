@@ -84,3 +84,17 @@ console.log(
     { Spain: { wc: 1, ec: 3, cc: 0 } },
   ])
 ); // {France: 57%, Spain: 43%}
+
+console.log(
+  eurosWinner([
+    { Germany: { wc: 4, ec: 3, cc: 1 } },
+    { France: { wc: 2, ec: 2, cc: 2 } },
+  ])
+); // {Germany: 61%, France: 39%}
+
+console.log(
+  eurosWinner([
+    { England: { wc: 1, ec: 0, cc: 0 } },
+    { Czechia: { wc: 0, ec: 1, cc: 0 } },
+  ])
+); // {England: 60%, Czechia: 40%}
