@@ -10,7 +10,7 @@
 
 // The chance needs to be rounded to the closest integer
 
-// The difference between the two teams exceed 90%-10%
+// A team has a minum of 10% and a maximum of 90% chances of winning the competition!
 
 function eurosWinner(arr) {
   const chancesArr = arr.map((el) => {
