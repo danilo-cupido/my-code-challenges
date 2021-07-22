@@ -16,10 +16,10 @@ function eurosWinner(arr) {}
 
 console.log(
   eurosWinner([
-    { Italy: { wc: 4, ec: 1, cc: 0 } },
+    { Italy: { wc: 4, ec: 2, cc: 0 } },
     { Germany: { wc: 4, ec: 3, cc: 1 } },
   ])
-); // {Italy: 42%, Germany: 58%}
+); // {Italy: 46%, Germany: 54%}
 
 console.log(
   eurosWinner([
@@ -44,10 +44,10 @@ console.log(
 
 console.log(
   eurosWinner([
-    { Italy: { wc: 4, ec: 1, cc: 0 } },
+    { Italy: { wc: 4, ec: 2, cc: 0 } },
     { England: { wc: 1, ec: 0, cc: 0 } },
   ])
-); // {Italy: 82%, England: 18%}
+); // {Italy: 84%, England: 16%}
 
 console.log(
   eurosWinner([
