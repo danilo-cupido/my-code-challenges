@@ -9,9 +9,7 @@ function squareRootIntegerKeys(obj) {
   for (let letter in obj) {
     obj[letter] = Math.sqrt(obj[letter]);
   }
-  let arr = Object.values(obj).filter((v) => {
-    if (Number.isInteger(v)) return v;
-  });
+  let arr = Object.values(obj).filter((v) => Number.isInteger(v));
   for (let i = 0; i < arr.length; i++) {
     keys.forEach((k) => {
       if (obj[k] === arr[i]) return final.push(k);
